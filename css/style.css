@@ -1,0 +1,103 @@
+/* Base */
+:root{
+    --color-primary-dark: #31261a;
+    --color-primary-light:#FAF4EA;
+    --color-akcent-green:#819B57;
+    --color-akcent-greendark:#465929;
+    --color-landing:#A18268;
+}
+
+body{
+   
+    color: var(--color-primary-dark);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 1.5; */
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.3;
+}
+/* header */
+.nav-link{
+    color: var(--color-primary-light);
+    }
+.nav-link:hover,:focus{
+    color: var(--color-akcent-green);
+}
+.button{
+    color: var(--color-primary-light);
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid var(--color-akcent-green);
+    background: var(--color-akcent-green);
+}
+/* hero-section */
+.heroe-title{
+    color: var(--color-primary-light);
+    text-align: center;
+    font-size: 128px;
+    font-weight: 900;
+}
+span{
+    color: var(--color-akcent-green);
+}
+/* advanteges */
+.advanteges-section{
+    background-color: var(--color-akcent-green);
+}
+.advanteges-list{
+    color: var(--color-primary-light);
+    font-size: 20px;
+    font-weight: 300;
+}
+/* traditions-section */
+.span-appercase{
+    text-transform: uppercase;
+    font-weight: 600; 
+}
+/* chefs-section */
+.span-akcentcolor{
+    color: var(--color-akcent-greendark);
+}
+.chefs-text{
+    font-size: 40px;
+    font-weight: 600;
+}
+/* Formats */
+.formats-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-primary-light);
+}
+.formats-text{
+    color: var(--color-primary-light);
+    font-size: 14px;
+    font-weight: 300;
+}
+/* footer */
+.address-link{
+    color: var(--color-primary-light);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.security{
+color: var(--color-landing);
+font-size: 14px;
+}
+.politic{
+    color: var(--color-primary-light);
+    font-size: 16px;
+    font-weight: 300;
+}
